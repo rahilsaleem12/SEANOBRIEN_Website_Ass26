@@ -1,0 +1,396 @@
+.main{
+    width: 100%;
+    height: 2850px;
+}
+.header{
+    margin-top: 0%;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo{
+    display: inline-block;
+    width: 20%;
+
+}
+.logo img{
+width: 220px;
+height: 50px;
+}
+.whiteSpace{
+    display: inline-block;
+    width: 30%;
+}
+.navbar{
+    display: inline-block;
+    float: right;
+    margin-right: 10%;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+.imagesec1fix{
+    float: right;
+    width: 100%;
+    display: inline-block;
+}
+.yellow{
+    display: inline-block;
+    background-color: yellow;
+    width: 600px;
+    height: 300px;
+    float: left;
+    position: fixed;
+    top: 50%;
+    left: 15%;
+}
+.imagesec1fix img{
+    position: fixed;
+    margin-top: 100px;
+   height: 400px;
+   width: 59%;
+   margin-left: 39%;
+
+}
+
+.abc p{
+    font-size: 100px;
+    position: absolute;
+    top: 180px;
+    width: 50%;
+    margin-left: 10%;
+    font-weight: bolder;
+        opacity: 0;
+        animation: fadeInUp 1s ease-in-out forwards;
+      }
+      
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+.section2main{
+    background-color: white;
+    height: 2530px;
+    position: relative;
+    top: 29%;
+    width: 100%;
+}
+.sec2head p{
+    width: 60%;
+    font-size: 100px;
+    margin: 0% auto;
+    font-weight: bolder;
+    padding-top: 10%;
+
+
+}.sec2fleximages{
+flex-wrap: wrap;
+width: 60%;
+margin: 0% auto;
+margin-right: 10%;
+padding-top: 10%;
+padding-bottom: 10%;
+}
+.sec2fleximages img{
+height: 120px;
+width: 120px;
+margin: 30px;
+}
+.sec3img1{
+    flex-wrap: wrap;
+    
+}
+.sec3img1 img{
+    width: 49%;
+    height: 300px;
+    margin: 0% auto;
+
+}
+.sec4heading{
+    letter-spacing: 6px;
+    font-weight: bold;
+    font-size: 35px;
+    font-style: oblique;
+    width: 50%;
+    
+}
+.sec4para{
+    font-size: 21px;
+}
+.sec5img img{
+    width: 80%;
+    height: 400px;
+    padding-top: 1%;
+    
+}
+.section4{
+    
+    width: 40%;
+    padding-left: 5%;
+}
+.section5{
+    width: 50%;
+    padding-left: 9%;
+}
+.sec4to5{
+    display: flex;
+    margin-top: 120px;
+}
+.sec4button h3{
+    width: 120px;
+    /* height: 60px; */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    /* padding-top: 1px; */
+    /* padding-bottom: 2px; */
+    border-radius: 10px;
+}
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    display: flex;
+
+}
+.footersec1{
+    width: 20%;
+    color: white;
+    margin-left: 6%;
+}
+.footersec1 img{
+    width: 150px;
+    height: 150px;
+    margin-top: 3%;
+}
+.footersec1 p{
+    font-size: 20px;
+}
+.footersec2{
+    width: 20%;
+    color: white;
+    margin-top: 3%;
+    /* margin-left: 10%; */
+}
+.footersec3{
+    width: 20%;
+    color: white;
+    margin-top: 3%;
+
+}
+.footersec4{
+    width: 20%;
+    color: white;
+    margin-top: 3%;
+
+}
+.imagesfooter img{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 400px){
+    .main{
+        width: 100%;
+        height: 4250px;
+    }
+    .header{
+        margin-top: 0%;
+        background-color: white;
+        position: fixed;
+        width: 100%;
+    }
+    .logo{
+        /* display: inline-block; */
+        width: 100%;
+    
+    }
+    .logo img{
+        width: 40%;
+        height: 30px;
+        }
+        .whiteSpace{
+            display: none;
+            width: 30%;
+        }
+        .navbar{
+            /* display: inline-block; */
+            float: none;
+            /* margin-right: 10%; */
+            margin: 0% auto;
+            width: 95%;
+        }
+        .navbar ul li{
+            display: inline-block;
+            margin: 10px;
+            font-size: 10px;
+            color: rgb(0, 0, 0);
+        }
+        .imagesec1fix{
+            float: right;
+            width: 95%;
+            display: inline-block;
+            margin-top: 50px;
+        }
+        .yellow{
+            display: inline-block;
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            float: left;
+            position: fixed;
+            top: 50%;
+            left: 15%;
+        }
+        .imagesec1fix img{
+            position: fixed;
+            margin-top: 100px;
+           height: 300px;
+           width: 64%;
+           margin-left: 24%;
+        
+        }
+        
+        .abc p{
+            font-size: 35px;
+            position: absolute;
+            top: 180px;
+            width: 50%;
+            margin-left: 10%;
+            font-weight: bolder;
+                opacity: 0;
+                animation: fadeInUp 1s ease-in-out forwards;
+              }
+              .section2main{
+                  background-color: white;
+                  height: 3250px;
+                position: relative;
+                top: 29%;
+                width: 100%;
+            }
+            .sec2head p{
+                width: 95%;
+                font-size: 35px;
+                margin: 0% auto;
+                font-weight: bolder;
+                padding-top: 10%;
+            
+            
+            }.sec2fleximages{
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0% auto;
+            /* margin-right: 10%; */
+            padding-top: 10%;
+            padding-bottom: 10%;
+            }
+            .sec2fleximages img{
+            height: 100px;
+            width: 25%;
+            margin-left: 10%;
+        }
+            .sec3img1{
+                flex-wrap: wrap;
+                
+            }
+            .sec3img1 img{
+                width: 49%;
+                height: 200px;
+                margin: 0% auto;
+            
+            }
+            .sec4heading{
+                letter-spacing: 6px;
+                font-weight: bold;
+                font-size: 35px;
+                font-style: oblique;
+                width: 100%;
+                
+            }
+            .sec4para{
+                font-size: 21px;
+            }
+            .sec5img img{
+                width: 100%;
+                height: 300px;
+                padding-top: 1%;
+                
+            }
+            .section4{
+                
+                width: 90%;
+                margin: 0% auto;
+            }
+            .section5{
+                width: 90%;
+                margin: 0% auto;
+            }
+            .sec4to5{
+                flex-direction: column;
+                /* display: flex; */
+                margin-top: 120px;
+            }
+     
+            .footer{
+                height: 1000px;
+                width: 100%;
+                background-color: black;
+                margin-top: 100px;
+                /* display: flex; */
+                flex-wrap: wrap;
+                        }
+            .footersec1{
+                width: 100%;
+                color: white;
+                margin: 0% auto;
+            }
+            .footersec1 img{
+                width: 170px;
+                height: 150px;
+                margin-top: 3%;
+                padding: 0px 25%;
+            }
+            .footersec1 p{
+                font-size: 20px;
+                text-align: center;
+            }
+            .footersec2{
+                width: 100%;
+                color: white;
+                padding: 0% 25%;
+                text-align: center;
+                margin-left: 0% important;
+            }
+            .footersec3{
+                width: 100%;
+                color: white;
+ 
+                padding: 0% 25%;
+                text-align: center;
+            }
+            .footersec4{
+                width: 100%;
+                color: white;
+                padding: 0% 25%;
+                text-align: center;
+            
+            }
+            .imagesfooter img{
+                width: 35px;
+                height: 35px;
+                margin-left: 10px;
+            }
+}
+        
